@@ -1,19 +1,21 @@
 @media screen and (min-widht:480px) {
     .container {
-        max-width: 428px;
+        max-width: 426px;
     } 
+
     .mob-menu {
     display: block;
 }
-
-    .team > .container {
-        min-width: 261px;
-    }
-    .online > .container {
-width: 426px;
+    .about > .container {
+    max-width: 426px;
 }
-    
+
+    .test > .container {
+        max-width: 426px;
     }
+    
+
+}
     
     @media screen and (min-width:480px) {
 .backdrop.is-hidden .modal {
@@ -26,7 +28,8 @@ width: 426px;
     left: 50%;
     transform: translateX(-50%);
 }
+
 }
 
-   
+
 
