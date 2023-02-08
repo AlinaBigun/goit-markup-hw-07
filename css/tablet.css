@@ -3,7 +3,7 @@
         max-width: 766px;
     }
     /*------------------HEADER----------------------------*/
-.header {
+.header > .container {
     padding-left: 16px;
     padding-right: 16px;
     padding-top: 24px;
@@ -177,7 +177,8 @@ width: calc((100% - 24px) / 2);
 
  /* -------------------------FOOTER--------------------- */
 .footer > .container {
-    max-width: 520px;
+    max-width: 582px;
+    
 }
 
 .footer {
@@ -189,7 +190,9 @@ justify-content: space-between;
 }
 .footer-top {
     display: flex;
-    gap: 24px;
+    column-gap: 24px;
+    margin-bottom: 72px;
+
     
 }
 .online-form {

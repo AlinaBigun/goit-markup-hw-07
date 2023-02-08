@@ -4,7 +4,7 @@
     }
 
 /* -----------------------HEADER ----------------*/
-.header {
+.header > .container {
     background-color: #FFFFFF;
     border-bottom: 1px solid #E7E9FC;
     display: flex;
@@ -189,6 +189,7 @@ margin-bottom: 72px;
     flex-wrap: nowrap;
     padding-left: 0px;
     padding-right: 0px;
+    display: flex;
 }
 .footer {
 display: flex;
@@ -197,10 +198,16 @@ padding-bottom: 100px;
 text-align: left;
 justify-content: space-between;
 }
+.footer-top {
+    margin-left: auto;
+    margin-bottom: 0px;
+    column-gap: 0px;
+}
 
 .footer-logo {
     display: block;
     margin-right: 120px;
+    margin-bottom: 0px;
 }
 
 
@@ -216,6 +223,7 @@ margin-top: 16px;
 }
 .footer-div {
     margin-right: 80px;
+    margin-bottom: 0px;
 }
 
 .footer-div-title {
