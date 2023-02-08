@@ -1,20 +1,15 @@
 @media screen and (min-widht:480px) {
     .container {
-        max-width: 426px;
+        max-width: 428px;
     } 
 
     .mob-menu {
     display: block;
 }
-    .about > .container {
-    max-width: 426px;
-}
 
     .test > .container {
         max-width: 426px;
     }
-    
-
 }
     
     @media screen and (min-width:480px) {

@@ -66,6 +66,7 @@ margin-bottom: 48px;
 .about > .container {
     padding-left: 0px;
     padding-right: 0px;
+    max-width: 1158px;
 }
 .about {
     padding-top: 120px;
@@ -187,8 +188,6 @@ margin-bottom: 72px;
 .footer > .container {
     max-width: 1158px;
     flex-wrap: nowrap;
-    padding-left: 0px;
-    padding-right: 0px;
     display: flex;
 }
 .footer {
@@ -222,7 +221,7 @@ margin-top: 16px;
 
 }
 .footer-div {
-    margin-right: 80px;
+    margin-right: 85px;
     margin-bottom: 0px;
 }
 

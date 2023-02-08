@@ -203,6 +203,7 @@ color: #434455;
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
+    padding-left: 0px;
 }
 .menu-close {
     width: 24px;
@@ -326,14 +327,15 @@ url(../img/ordermob2x.jpg);
 }
 }
 .order-title {
-    text-align: center;
-    min-width: 318px;
-font-weight: 600;
+width: 100%;
+text-align: center;
+font-weight: 500;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 color: #FFFFFF;
 margin-bottom: 72px;
+
 
 }
 .order-btn {
@@ -361,6 +363,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 
 /* ---------------------ABOUT----------------- */
+.about > .container {
+        max-width: 396px;
+    }
 .about {
     padding-top: 96px;
     padding-bottom: 96px;
@@ -368,7 +373,9 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .about-list {
-display: block;
+display: flex;
+flex-wrap: wrap;
+align-items: center;
 padding: 0px;
 }
 .about-item:not(:last-child) {
@@ -388,12 +395,21 @@ color: #2E2F42;
 margin-bottom: 8px;
 
 }
+.about-item {
+    max-width: 100%;
+    flex: none;
+align-self: stretch;
+flex-grow: 0;
+    
+}
 .about-text {
     width: 100%;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--text-color);
+
+
 }
 /* -----------------DOING ------------------------*/
 .doing {

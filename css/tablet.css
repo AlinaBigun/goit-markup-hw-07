@@ -103,6 +103,9 @@ url(../img/ordertab2x.jpg);
     }
 
     /* ---------------------ABOUT----------------- */
+.about > .container {
+    max-width: 766px;
+}
 
     .about-soc {
 display: none;
