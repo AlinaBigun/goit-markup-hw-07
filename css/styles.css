@@ -299,7 +299,10 @@ margin-bottom: 48px;
     
 }
 /* -----------------------ORDER ----------------*/
-
+.order > .container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
 .order {
     text-align: center;
 background: #2E2F42;
@@ -328,6 +331,8 @@ url(../img/ordermob2x.jpg);
 }
 .order-title {
 width: 100%;
+margin-left: auto;
+margin-right: auto;
 text-align: center;
 font-weight: 500;
 font-size: 36px;
