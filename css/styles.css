@@ -203,7 +203,7 @@ color: #434455;
     flex-direction: column;
     justify-content: space-between;
     overflow: auto;
-    padding-left: 0px;
+    padding-right: 15px;
 }
 .menu-close {
     width: 24px;
@@ -422,7 +422,7 @@ color: var(--text-color);
 }
 /* -----------------TEAM ------------------------*/
 .team > .container {
-        min-width: 261px;
+        max-width: 274px;
     }
 .team {
     justify-content: center;
@@ -448,7 +448,8 @@ text-align: center;
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
-    gap: 72px;
+    column-gap: 0px;
+        row-gap: 72px;
     
     
     
@@ -729,6 +730,7 @@ text-align: center;
     display: block;
     justify-content: center;
     margin-bottom: 72px;
+    text-align: center;
     
 }
 
@@ -756,13 +758,15 @@ outline: none;
 }
 
 .footer-text {
-    min-width: 264px;
+    max-width: 264px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: #E7E9FC;
 margin-top: 16px;
-justify-content: center;
+text-align: left;
+margin-left: auto;
+margin-right: auto;
 }
 .footer-div {
     margin-bottom: 72px;
